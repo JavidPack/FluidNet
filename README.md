@@ -25,7 +25,7 @@ Note: This is not an official Google product.
 --------------------
 
 ```
-git clone git@github.com:google/FluidNet.git
+git clone https://github.com/google/FluidNet
 ```
 
 #1. Generating the data
@@ -51,10 +51,10 @@ chmod u+x binvox
 python generate_binvox_files.py
 ```
 
-OPTIONAL: You can view the output by using the viewvox utility (http://www.patrickmin.com/viewvox/). Put the viewvox executable in the ``FluidNet/voxelizer/voxels`` directory, then:
+OPTIONAL: You can view the output by using the viewvox utility (http://www.patrickmin.com/viewvox/). Put the viewvox executable in the ``FluidNet/voxelizer/voxels_demo`` directory, then:
 
 ```
-cd FluidNet/voxelizer/voxels
+cd FluidNet/voxelizer/voxels_demo
 chmod u+x viewvox
 ./viewvox -ki bunny.capped_32.binvox
 ```
